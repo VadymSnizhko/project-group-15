@@ -1,6 +1,10 @@
+.contact-us {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .contact-us-container {
   background-color: #fbfbfb;
-  margin-bottom: 28px;
 }
 
 .contact-us-title {
@@ -10,7 +14,6 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   text-transform: none;
-  padding-top: 60px;
   padding-bottom: 24px;
 }
 
@@ -131,7 +134,10 @@
   height: 84px;
   background-color: #f3f3f3;
   resize: none;
-  overflow: hidden;
+}
+
+.contact-us-text::-webkit-scrollbar {
+  display: none;
 }
 
 .contact-us-text:focus {
@@ -144,8 +150,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contact-us-container {
-    margin-bottom: 32px;
+  .contact-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .contact-us-title {
@@ -155,7 +162,6 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     text-transform: none;
-    padding-top: 80px;
     padding-bottom: 40px;
   }
 
@@ -204,10 +210,6 @@
     height: 90px;
   }
 
-  .contact-us-text::-webkit-scrollbar {
-    display: none;
-  }
-
   .contact-us-send-btn {
     font-weight: 500;
     font-size: 14px;
@@ -231,6 +233,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .contact-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .contact-us-container {
     background-color: #fbfbfb;
   }
@@ -239,10 +246,6 @@
     display: flex;
     gap: 40px;
     justify-content: center;
-  }
-
-  .contact-us-title {
-    padding-top: 100px;
   }
 
   .contact-us-section {
