@@ -3,7 +3,6 @@
     background-color: inherit;
 }
 .sale-title {
-    display: block;
     font-weight: 600;
     font-size: 32px;
     line-height: 100%;
@@ -55,8 +54,8 @@
         margin-bottom: 40px;
     }
     .sale-cont-information{
-        row-gap: 20px;
-        column-gap: 40px;
+        row-gap: 40px;
+        column-gap: 20px;
     }
     .sale-list-image{
         flex-direction: column;
@@ -82,10 +81,13 @@
         padding-bottom: 100px;
     }
     .sale-cont{
-        align-items: center;
+        display: block;
     }
-
+    .sale-title{
+        padding: 0 40px;
+    }
     .sale-cont-information{
+        justify-content: center;
         gap: 20px;
     }
     .sale-watch-main-model {
