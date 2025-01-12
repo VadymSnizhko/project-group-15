@@ -1,18 +1,23 @@
 .sale {
-    padding: 30px 0;
+    padding-bottom: 60px;
     background-color: inherit;
 }
-.sale-cont{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .sale-title {
+    display: block;
     font-weight: 600;
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
     margin-bottom: 24px;
+}
+.sale-cont{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sale-cont-information{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .sale-list-image {
@@ -20,7 +25,6 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin-bottom: 20px;
 }
 
 .sale-img-items {
@@ -34,7 +38,6 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     padding: 50px;
-    margin-bottom: 20px;
 }
 
 .sale-description {
@@ -44,22 +47,56 @@
 }
 @media screen and (min-width: 768px) {
     .sale{
-        padding: 40px 0;
-    }
-    .sale-cont{
-        flex-direction: row;
-        flex-wrap: wrap;
+        padding-bottom: 80px;
     }
     .sale-title{
         font-size: 48px;
         line-height: 92%;
         margin-bottom: 40px;
     }
+    .sale-cont-information{
+        row-gap: 20px;
+        column-gap: 40px;
+    }
     .sale-list-image{
         flex-direction: column;
     }
+    .sale-list-image{
+        gap: 10px;
+    }
+    .sale-img-items{
+        padding: 16px 18px;
+        border-radius: 20px;
+    }
+    .sale-watch-main-model{
+        padding: 80px 112px;
+        border-radius: 50px;
+    }
+    .sale-description{
+        padding: 60px;
+        border-radius: 50px;
+    }
 }
+@media screen and (min-width: 1280px){
+    .sale {
+        padding-bottom: 100px;
+    }
+    .sale-cont{
+        align-items: center;
+    }
 
+    .sale-cont-information{
+        gap: 20px;
+    }
+    .sale-watch-main-model {
+        padding: 80px 50px;
+        border-radius: 50px;
+    }
+    .sale-description {
+        max-width: 530px;
+        margin-left: 20px;
+    }
+}
 .sale-model-descript {}
 
 .sale-model-descript-accent {}
