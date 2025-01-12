@@ -208,6 +208,10 @@
     height: 90px;
   }
 
+  .contact-us-text::-webkit-scrollbar{
+    display: none;
+  }
+
   .contact-us-send-btn {
     font-weight: 500;
     font-size: 14px;
