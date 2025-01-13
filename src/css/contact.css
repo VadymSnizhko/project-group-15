@@ -1,5 +1,5 @@
 .contact-us {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-bottom: 60px;
 }
 
@@ -151,7 +151,7 @@
 
 @media screen and (min-width: 768px) {
   .contact-us {
-    padding-top: 80px;
+    /* padding-top: 80px; */
     padding-bottom: 80px;
   }
 
@@ -234,7 +234,7 @@
 
 @media screen and (min-width: 1280px) {
   .contact-us {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 100px;
   }
 
