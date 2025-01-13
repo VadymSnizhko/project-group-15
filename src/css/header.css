@@ -219,7 +219,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  background:url(../images/mob-menu-back.jpg);
+  background:url(../images/header/mob-menu-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -366,7 +366,7 @@
 @media only screen and (min-width: 768px) {
   .modal-menu {
     min-width: 330px;
-    background: url(/images/tab-menu-back.jpg);
+    background: url(../images/header/tab-menu-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -401,7 +401,7 @@
     (min-resolution: 192dpi) {
     .modal-menu {
       background-image: 
-        url(../images/tab-menu-back@2.jpg);
+        url(../images/header/tab-menu-back@2.jpg);
     }
   }
 }
@@ -424,6 +424,6 @@
   .modal-menu {
     background-image: linear-gradient(
       ),
-      url(../images/mob-menu-back@2.jpg);
+      url(../images/header/mob-menu-back@2.jpg);
   }
 }
