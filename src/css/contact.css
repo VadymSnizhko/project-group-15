@@ -43,22 +43,18 @@
 
 .contact-us-section .contact-us-form .container-name .contact-us-input {
 max-width: 100%;
-
 }
 
 .contact-us-section .contact-us-form .container-name .contact-us-email {
 max-width: 100%;
-
 }
 
 .contact-us-section .contact-us-form .container-name .contact-us-phone {
 max-width: 100%;
-
 }
 
-.contact-us-section .contact-us-form .container-name .contact-us-text {
-max-width: 100%;
-
+.contact-us-section .contact-us-form .contact-us-comment .contact-us-text {
+width: 100%;
 }
 
 .contact-us-paragraf {
@@ -78,7 +74,7 @@ max-width: 100%;
   color: #0c0c0c;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  padding: 12px 226px 12px 14px;
+  padding: 12px 136px 12px 14px;
   max-width: 279px;
   height: 42px;
   background-color: #f3f3f3;
@@ -108,6 +104,30 @@ max-width: 100%;
   max-width: 279px;
   height: 42px;
   background-color: #f3f3f3;
+}
+
+.contact-us-text {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #0c0c0c;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding: 12px 136px 54px 14px;
+  max-width: 279px;
+  height: 84px;
+  background-color: #f3f3f3;
+  resize: none;
+}
+
+.contact-us-text::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-us-text:focus {
+  outline: #3350e9;
+  border-color: #3350e9;
 }
 
 .contact-us-phone:focus {
@@ -154,29 +174,9 @@ max-width: 100%;
   margin-bottom: 28px;
 }
 
-.contact-us-text {
-  margin: 0 auto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28;
-  color: #0c0c0c;
-  border: 1px solid rgba(12, 12, 12, 0.15);
-  border-radius: 12px;
-  padding: 12px 136px 54px 14px;
-  max-width: 279px;
-  height: 84px;
-  background-color: #f3f3f3;
-  resize: none;
-}
 
-.contact-us-text::-webkit-scrollbar {
-  display: none;
-}
 
-.contact-us-text:focus {
-  outline: #3350e9;
-  border-color: #3350e9;
-}
+
 
 .img-contact-us {
   display: flex;
