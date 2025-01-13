@@ -37,6 +37,7 @@
   margin: 0;
   display: flex;
   align-items: center;
+  border: none;
 }
 
 .btn-menu-svg:hover {
@@ -245,15 +246,15 @@
   padding: 0;
   background-color: inherit;
   cursor: pointer;
-
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-svg-btn {
   stroke: #fbfbfb;
-  width: 34px;
-  height: 34px;
+  width: 23px;
+  height: 23px;
 }
 
 .nav-svg-btn:hover {
