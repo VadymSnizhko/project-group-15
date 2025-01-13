@@ -15,6 +15,7 @@
   margin: 0 auto;
 }
 .advert-container{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -23,7 +24,7 @@
   border-radius: 30px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-color: #0C0C0C;
-  background-image: url(../img/advertisement/advert-bg-mobile.webp), url(../img/advertisement/advert-bg-mobile@2x.webp), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-image: url(/images/advertisement/advert-bg-mobile.webp), url(/images/advertisement/advert-bg-mobile@2x.webp), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   max-width: 335px;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +68,7 @@ color:rgba(251, 251, 251, 0.5);
     max-width: 704px;
     padding: 80px 64px;
     gap: 32px;
-    background-image:url(../img/advertisement/advert-bg-tablet.webp), url(../img/advertisement/advert-bg-tablet@2x.webp),linear-gradient(90deg, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92) 100%);
+    background-image:url(/images/advertisement/advert-bg-tablet.webp), url(/images/advertisement/advert-bg-tablet@2x.webp),linear-gradient(90deg, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92) 100%);
   }
     .advert-text{
       font-size: 48px;
@@ -86,7 +87,7 @@ color:rgba(251, 251, 251, 0.5);
     gap: 140px;
     max-width: 1150px;
     padding: 83px 80px;
-    background-image: url(../img/advertisement/advert-bg-desktop.webp), url(../img/advertisement/advert-bg-desktop@2x.webp),linear-gradient(90deg, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92) 100%);
+    background-image: url(/images/advertisement/advert-bg-desktop.webp), url(/images/advertisement/advert-bg-desktop@2x.webp),linear-gradient(90deg, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92) 100%);
   }
   .advert-text{
     max-width: 690px;
