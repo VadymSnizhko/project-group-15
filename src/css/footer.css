@@ -1,4 +1,4 @@
-footer {
+.footer {
   padding-bottom: 20px;
   padding-top: 40px;
   padding-left: 28px;
@@ -106,7 +106,6 @@ footer {
   width: 34px;
   height: 34px;
   opacity: 0.8;
-  transition: opacity 0.25s ease-in;
 }
 @media screen and (min-width: 768px) {
   .footer-social-link {
@@ -124,11 +123,8 @@ footer {
 
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
-  fill: #3350e9;
+  fill: #fbfbfb;
   transition: opacity 0.25s ease-in;
-}
-.facebook-icon {
-  transform: translateX(4px);
 }
 
 .footer-phone-box {
