@@ -12,6 +12,7 @@
   z-index: 1000;
 }
 
+
 .header-container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -38,6 +39,7 @@
   display: flex;
   align-items: center;
 }
+
 
 .btn-menu-svg:hover {
   stroke: slateblue;
