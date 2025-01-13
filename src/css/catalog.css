@@ -1,0 +1,41 @@
+.catalog {
+    text-transform: capitalize;
+    padding: 95px 0; 
+}
+
+.container {}
+
+.catalog-title {
+
+    font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 48px; 
+        line-height: 0.91;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+}
+
+.catalog-list {
+    display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 23px;
+}
+
+.catalog-li {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 10px;
+}
+
+.catalog-top {}
+
+.catalog-text {}
+
+.catalog-text-name {}
+
+.catalog-text-price {}

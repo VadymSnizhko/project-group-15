@@ -1,21 +1,103 @@
-/* Styles for Mobile devices */
+.catalog {
+  text-transform: capitalize;
+  padding: 95px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
 .container {
   margin: 0 auto;
   min-width: 320px;
 
   padding: 0 20px;
 }
-/* Styles for Tablet devices */
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
 }
-/* Styles for Desktop devices */
+
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 65px;
   }
+}
+
+.catalog-title {
+
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-left: 65px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  column-gap: 23px;
+  row-gap: 32px;
+}
+
+.catalog-li {
+  width: 368px;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 368px;
+}
+
+.catalog-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.catalog-photo {
+  margin-left: 38px;
+
+}
+
+.catalog-text {
+  display: block;
+  margin-left: 32px;
+  margin-bottom: 24px;
+  max-width: 304px;
+}
+
+.catalog-text-name {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin: 0 0 8px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.catalog-text-price {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+  margin: 0;
 }
