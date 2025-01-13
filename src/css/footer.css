@@ -1,8 +1,8 @@
 footer {
   padding-bottom: 20px;
   padding-top: 40px;
-  padding-left: 28;
-  padding-right: 28;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -61,7 +61,11 @@ footer {
     align-items: baseline;
   }
 }
-
+.social-logo {
+  margin-bottom: 20px;
+  width: 122px;
+  height: 73px;
+}
 .footer-logo {
   max-width: 90px;
   font-family: 'Gilroy', sans-serif;
@@ -117,8 +121,18 @@ footer {
 .footer-social-icon {
   fill: #fbfbfb;
 }
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #3350e9;
+  transition: opacity 0.25s ease-in;
+}
+.facebook-icon {
+  transform: translateX(4px);
+}
+
 .footer-phone-box {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -195,7 +209,7 @@ footer {
 .footer-text-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: center;
@@ -206,7 +220,7 @@ footer {
   .footer-text-title {
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 1.1;
     letter-spacing: -0.02em;
     text-align: center;
