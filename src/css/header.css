@@ -85,6 +85,7 @@
   .btn-menu {
     width: 40px;
     height: 40px;
+
   }
 
   .header-logo {
@@ -95,6 +96,24 @@
     color: #0c0c0c;
   }
 }
+
+
+  .header-logo {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 65px;
+    margin: 0 auto;
+
+  }
+}
+
 
 @media only screen and (min-width: 1158px) {
   .container {
@@ -116,6 +135,22 @@
   .header-nav {
     display: flex;
     text-decoration: none;
+
+  .header-container {
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    text-decoration: none;
+
+
   }
 
   .header-ul {
@@ -167,6 +202,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+
   .header-link-menu:hover::before {
     transform: scaleX(1);
   }
@@ -174,6 +210,17 @@
   .header-link-menu:focus::before {
     transform: scaleX(1);
   }
+
+
+
+  .header-link-menu:hover::before {
+    transform: scaleX(1);
+  }
+
+  .header-link-menu:focus::before {
+    transform: scaleX(1);
+  }
+
 
   .social-media {
     display: flex;
@@ -197,11 +244,20 @@
     fill: #0c0c0c;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
 
   .social-media-link:hover .media-svg {
     fill: #3350e9;
   }
+
+
+  }
+
+  .social-media-link:hover .media-svg {
+    fill: #3350e9;
+  }
+
 
   .social-media-link:focus .media-svg {
     fill: #3350e9;
@@ -218,7 +274,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
   background: url(../images/mob-menu-back.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -275,7 +333,9 @@
   list-style-type: none;
 }
 
+
 .modal-li {
+
   text-align: center;
   list-style-type: none;
 }
@@ -399,7 +459,9 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .modal-menu {
+
       background-image: url(../images/tab-menu-back@2.jpg);
+
     }
   }
 }
@@ -410,16 +472,20 @@
   }
 }
 
+
 .modal-menu-content {
   position: relative;
   width: 90%;
   max-width: 600px;
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .modal-menu {
+
     background-image: linear-gradient(), url(../images/mob-menu-back@2.jpg);
+
   }
 }
