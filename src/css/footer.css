@@ -1,31 +1,32 @@
-
-.footer {
+footer {
   padding-bottom: 20px;
   padding-top: 40px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 28;
+  padding-right: 28;
 }
 
 @media screen and (min-width: 768px) {
   footer {
     padding-bottom: 32px;
+    padding-top: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   footer {
     padding-top: 50px;
-    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  footer .container {
+  .container {
     padding: 0 32px;
   }
 }
 
 .footer-container {
+  max-width: 335px;
+  margin-top: 40px;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
@@ -35,14 +36,15 @@
   .footer-container {
     padding: 40px 40px 28px 40px;
     position: relative;
-    min-width: 704px;
+    max-width: 768px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .footer-container {
     padding: 40px 40px 28px 40px;
     position: relative;
-    min-width: 1216px;
+    margin-top: 40px;
+    max-width: 1216px;
   }
 }
 
@@ -199,7 +201,7 @@
     flex-direction: column;
     position: absolute;
     top: 40px;
-    left: 340px;
+    margin-left: 178px;
     width: 523px;
   }
 }
