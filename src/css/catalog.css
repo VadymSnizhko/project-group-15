@@ -1,21 +1,4 @@
 
-.container {
-    min-width: 320px;
-    max-width: 375px;
-
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media only screen and (min-width: 1250px) {
-    .container {
-        max-width: 1250px;
-    }
-}
 .catalog {
     width: 100%;
     padding-bottom: 24px;
@@ -38,8 +21,8 @@
 .catalog-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
-
     row-gap: 20px;
 }
 .catalog-li{
