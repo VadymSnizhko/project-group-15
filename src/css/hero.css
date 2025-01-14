@@ -1,7 +1,11 @@
 /* HERO */
 
-.hero{
+.hero {
+    margin-top: 74px;
+    /* написала цей відступ, тому що в секції хедер стоїть zindex, який накриває мою секцію. 74рх це розмір попередньої секції */
     padding-top: 60px;
+    padding-bottom: 30px;
+    
 }
 
 @media screen and (min-width:768px){
@@ -14,8 +18,8 @@
     display: flex;
     flex-direction: column;
     gap: 28px;
-    margin-bottom: 28px;
-}
+    margin-bottom: 28px; 
+    }
 
 @media screen and (min-width:768px){
     .hero-content-wrap{
@@ -26,20 +30,9 @@
     }
 }
 
-.hero-content{
-    display: block;
-    max-width: 335px;
-}
-
-@media screen and (min-width:768px) {
-    .hero-content{
-      max-width: 557px;
-    }
-}
-
 @media screen and (min-width:1280px){
     .hero-content{
-        max-width: 597px;
+       max-width: 597px;
     }
 }
 
@@ -100,13 +93,7 @@
 @media screen and (min-width:768px){
     .hero-content-2{
         flex-direction: column;
-        height: 260px;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .hero-content-2 {
-        height: 269px;
+        height: auto;
     }
 }
 
@@ -133,12 +120,9 @@
     position: absolute;
     top: 0;
 }
-
-.hero-img{
-    width: 44px;
-    height:44px;
+.hero-card-1{
+    left: 0;
 }
-
 .hero-card-2{
     left: 32px;
     z-index: 100;
@@ -157,7 +141,7 @@
         left: 41px;
     }
     .hero-card-3{
-        left: 82px;
+        left: 80px;
     }
 }
 @media screen and (min-width:1280px) {
@@ -169,7 +153,7 @@
         left: 44px;
     }
     .hero-card-3 {
-         left: 88px;
+         left: 86px;
      }
 }
 
@@ -198,7 +182,7 @@
     }
 }
 .hero-picture{
-    border-radius: 30px;
+        border-radius: 30px;
         width: 335px;
         height: 366px;
         background: rgba(12, 12, 12, 0.2);
