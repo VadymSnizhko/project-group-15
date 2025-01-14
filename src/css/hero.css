@@ -1,16 +1,12 @@
-/* HERO */
-
-.hero {
-    margin-top: 74px;
-    /* написала цей відступ, тому що в секції хедер стоїть zindex, який накриває мою секцію. 74рх це розмір попередньої секції */
-    padding-top: 60px;
-    padding-bottom: 30px;
-    
-}
+    .hero{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
 
 @media screen and (min-width:768px){
     .hero{
         padding-top: 80px;
+        padding-bottom: 40px;
     }  
 }
 
@@ -22,6 +18,10 @@
     }
 
 @media screen and (min-width:768px){
+    .hero{
+        padding-bottom: 50px;
+    }  
+  
     .hero-content-wrap{
         flex-direction: row;
         justify-content: space-between;
