@@ -404,7 +404,7 @@
     (min-resolution: 192dpi) {
     .modal-menu {
       background-image: 
-        url(../images/header/tab-menu-back@2.jpg);
+        url(../images/header/tab-menu-back@2.jpg)
     }
   }
 }
@@ -425,8 +425,7 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .modal-menu {
-    background-image: linear-gradient(
-      ),
+    background-image: 
       url(../images/header/mob-menu-back@2.jpg);
   }
 }
