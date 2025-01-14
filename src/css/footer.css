@@ -18,21 +18,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container .footer-container {
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-  }
-}
 
 .footer-container {
   margin: auto;
