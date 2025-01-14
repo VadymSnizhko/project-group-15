@@ -6,11 +6,7 @@
 .header {
   background-color: #fbfbfb;
   border-bottom: 1px solid #e7e9fc;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  position: relative;
 }
 
 .header-container {
@@ -74,11 +70,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .header-container {
     padding-top: 26px;
     padding-bottom: 26px;
@@ -262,7 +253,7 @@
   visibility: hidden;
   pointer-events: none;
 
-  background: url(../images/mob-menu-back.jpg);
+  background: url(/images/mob-menu-back.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -447,7 +438,7 @@
     (min-resolution: 192dpi) {
     .modal-menu {
 
-      background-image: url(../images/tab-menu-back@2.jpg);
+      background-image: url(/images/tab-menu-back@2.jpg);
 
     }
   }
@@ -472,11 +463,11 @@
   (min-resolution: 192dpi) {
   .modal-menu {
 
-    background-image: linear-gradient(), url(../images/mob-menu-back@2.jpg);
+    background-image: linear-gradient(), url(/images/mob-menu-back@2.jpg);
 
   }
 }
-=======
+
 .body {
   position: relative;
 }
@@ -551,11 +542,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .header-container {
     padding-top: 26px;
     padding-bottom: 26px;
@@ -693,7 +679,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  background:url(../images/mob-menu-back.jpg);
+  background:url(/images/mob-menu-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -875,7 +861,7 @@
     (min-resolution: 192dpi) {
     .modal-menu {
       background-image: 
-        url(../images/tab-menu-back@2.jpg);
+        url(/images/tab-menu-back@2.jpg);
     }
   }
 }
@@ -898,7 +884,7 @@
   .modal-menu {
     background-image: linear-gradient(
       ),
-      url(../images/mob-menu-back@2.jpg);
+      url(/images/mob-menu-back@2.jpg);
   }
 }
 
