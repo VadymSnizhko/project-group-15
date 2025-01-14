@@ -18,12 +18,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .container {
-    padding: 0 32px;
-  }
-}
-
 .footer-container {
   max-width: 335px;
   margin-top: 40px;
