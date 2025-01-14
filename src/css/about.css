@@ -1,3 +1,7 @@
+  .aboutus{
+    padding-top: 30px;
+    padding-bottom: 30px;  
+  }
 
   .aboutus-picture{
     max-width:335px;
@@ -40,6 +44,10 @@
   }
 
 @media screen and (min-width:767px){
+  .aboutus{
+    padding-top: 40px;
+    padding-bottom: 40px;  
+  }
   .aboutus-picture{
     max-width:768px;
     margin-left: auto;
@@ -94,6 +102,11 @@
 }
 
 @media screen and (min-width:1279px){
+  .aboutus{
+    padding-top: 50px;
+    padding-bottom: 50px;  
+  }
+  
   .aboutus-container{
       display: flex;
       flex-direction: row;
