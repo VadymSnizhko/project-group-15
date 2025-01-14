@@ -102,6 +102,11 @@
     width: 370px;
     height: 272px;
   }
+  .reviews-items:nth-child(2) {
+    width: 370px;
+    height: 272px;
+    padding: 32px 36px;
+  }
   .reviews-items:nth-child(3) {
     width: 370px;
     height: 272px;
