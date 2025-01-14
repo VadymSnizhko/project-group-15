@@ -103,7 +103,9 @@
     .catalog{
         padding: 50px;
     }
-
+     .container{
+        min-width: 1280px;
+    } 
      .catalog-list {
         column-gap: 23px;
         row-gap: 32px;
