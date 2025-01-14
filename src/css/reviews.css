@@ -4,6 +4,8 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
 }
 .reviews-container {
   display: flex;
@@ -66,6 +68,7 @@
 @media screen and (min-width: 768px) {
   .reviews {
     gap: 40px;
+    padding: 0 32px;
   }
   .reviews-name {
     font-size: 18px;
@@ -75,10 +78,7 @@
     font-size: 16px;
     line-height: 1.25;
   }
-  .title {
-    font-size: 48px;
-    line-height: 0.92;
-  }
+
   .reviews-items {
     width: 344px;
     height: 272px;
@@ -95,12 +95,18 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .reviews {
+    padding: 0 65px;
   }
   .reviews-items {
     width: 370px;
     height: 272px;
+  }
+  .reviews-items:nth-child(2) {
+    width: 370px;
+    height: 272px;
+    padding: 32px 36px;
   }
   .reviews-items:nth-child(3) {
     width: 370px;
