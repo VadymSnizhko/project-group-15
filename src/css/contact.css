@@ -53,7 +53,7 @@
 }
 
 .contact-us-section .contact-us-form .contact-us-comment .contact-us-text {
-  width: 100%;
+  max-width: 100%;
 }
 
 .contact-us-paragraf {
