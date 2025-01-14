@@ -8,23 +8,26 @@ footer {
 @media screen and (min-width: 768px) {
   footer {
     padding-bottom: 32px;
+    padding-top: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   footer {
     padding-top: 50px;
-    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  footer .container {
+  .container {
     padding: 0 32px;
   }
 }
 
 .footer-container {
+  max-width: 335px;
+  margin-top: 40px;
+  margin-bottom: 32px;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
@@ -34,14 +37,15 @@ footer {
   .footer-container {
     padding: 40px 40px 28px 40px;
     position: relative;
-    min-width: 704px;
+    max-width: 768px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .footer-container {
     padding: 40px 40px 28px 40px;
     position: relative;
-    min-width: 1216px;
+    margin-top: 40px;
+    max-width: 1216px;
   }
 }
 
@@ -61,7 +65,11 @@ footer {
     align-items: baseline;
   }
 }
-
+.social-logo {
+  margin-bottom: 20px;
+  width: 122px;
+  height: 73px;
+}
 .footer-logo {
   max-width: 90px;
   font-family: 'Gilroy', sans-serif;
@@ -102,7 +110,6 @@ footer {
   width: 34px;
   height: 34px;
   opacity: 0.8;
-  transition: opacity 0.25s ease-in;
 }
 @media screen and (min-width: 768px) {
   .footer-social-link {
@@ -117,8 +124,15 @@ footer {
 .footer-social-icon {
   fill: #fbfbfb;
 }
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #fbfbfb;
+  transition: opacity 0.25s ease-in;
+}
+
 .footer-phone-box {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -188,14 +202,14 @@ footer {
     flex-direction: column;
     position: absolute;
     top: 40px;
-    left: 340px;
+    margin-left: 178px;
     width: 523px;
   }
 }
 .footer-text-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: center;
@@ -206,7 +220,7 @@ footer {
   .footer-text-title {
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 1.1;
     letter-spacing: -0.02em;
     text-align: center;
