@@ -108,22 +108,7 @@
     color: #0c0c0c;
   }
 
-  @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
-  }
-}
-
  @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
-  }
-
-
   .header-container {
     justify-content: space-between;
     padding-top: 26px;
@@ -591,11 +576,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 65px;
-    margin: 0 auto;
-  }
 
   .header-container {
     justify-content: space-between;
