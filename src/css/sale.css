@@ -60,16 +60,15 @@
     }
     .sale-list-image{
         flex-direction: column;
-    }
-    .sale-list-image{
         gap: 10px;
     }
+    
     .sale-img-items{
-        padding: 16px 18px;
+        padding: 15px 17px;
         border-radius: 20px;
     }
     .sale-watch-main-model{
-        padding: 80px 112px;
+        padding: 79px 111px;
         border-radius: 50px;
     }
     .sale-description{
