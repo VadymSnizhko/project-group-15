@@ -4,7 +4,8 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  padding-bottom: 50px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
 }
 .reviews-container {
   display: flex;
@@ -67,6 +68,7 @@
 @media screen and (min-width: 768px) {
   .reviews {
     gap: 40px;
+    padding: 0 32px;
   }
   .reviews-name {
     font-size: 18px;
@@ -98,6 +100,7 @@
 
 @media screen and (min-width: 1280px) {
   .reviews {
+    padding: 0 65px;
   }
   .reviews-items {
     width: 370px;
