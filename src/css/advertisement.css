@@ -46,7 +46,9 @@ color:rgba(251, 251, 251, 0.5);
   border: none;
 }
 .advert-btn-link{
-  display: block;
+  display: flex; /* Включаємо flex-контейнер */
+  align-items: center; /* Вирівнюємо по вертикалі */
+  justify-content: center; /* Вирівнюємо по горизонталі */
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.15);
   width: 160px;
