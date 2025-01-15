@@ -4,6 +4,15 @@
   padding: 0 20px;
 }
 
+.h2-title{
+  font-weight: 600;
+  font-size: 32px;
+
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
