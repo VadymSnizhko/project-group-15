@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-bottom: 20px;
 }
 
 .sale-watch{
@@ -68,6 +69,8 @@
     .sale-list-image{
         flex-direction: column;
         gap: 10px;
+        margin-right: 20px;
+        margin-bottom: 0px;
     }
   
   .sale-watch{
