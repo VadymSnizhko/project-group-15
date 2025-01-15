@@ -28,6 +28,11 @@
     gap: 5px;
 }
 
+.sale-watch{
+    display: block;
+  }
+
+
 .sale-img-items {
     background-color: #F3F3F3;
     padding: 13px 14px;
@@ -64,6 +69,10 @@
         flex-direction: column;
         gap: 10px;
     }
+  
+  .sale-watch{
+    display: flex;
+  }
     
     .sale-img-items{
         padding: 15px 17px;
@@ -90,7 +99,6 @@
         padding: 0 40px;
     }
     .sale-cont-information{
-        justify-content: center;
         gap: 20px;
     }
     .sale-watch-main-model {
