@@ -461,7 +461,7 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  background-image: linear-gradient(), url(/images/header/mob-menu-back.jpg);
+  background-image: url(/images/header/mob-menu-back.jpg);
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -469,7 +469,7 @@
 (min-resolution: 192dpi) {
   .modal-menu-content {
 
-    background-image: linear-gradient(), url(/images/header/mob-menu-back@2.jpg);
+    background-image: url(/images/header/mob-menu-back@2.jpg);
 
   }
 }
@@ -923,7 +923,6 @@
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
   .modal-menu {
-    background-image: linear-gradient(),
-      url(/images/header/mob-menu-back@2.jpg);
+    background-image: url(/images/header/mob-menu-back@2.jpg);
   }
 }
