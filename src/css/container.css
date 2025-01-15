@@ -19,6 +19,12 @@
     padding: 0 32px;
     margin: 0 auto;
   }
+  
+  .h2-title{
+  font-size: 48px;
+
+  line-height: 0.91667;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
