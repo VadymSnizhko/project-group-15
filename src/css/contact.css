@@ -1,8 +1,6 @@
 .contact-us {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .contact-us-container {
@@ -10,7 +8,6 @@
 }
 
 .contact-us-subcontainer {
-  margin: 0 auto;
   max-width: 335px;
 }
 
@@ -185,8 +182,6 @@
   .contact-us {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .contact-us-subcontainer {
@@ -280,8 +275,6 @@
     max-width: 1280px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 65px;
-    padding-right: 65px;
   }
 
   .contact-us-title-container {
@@ -291,7 +284,6 @@
   .contact-us-subcontainer {
     display: flex;
     gap: 40px;
-    justify-content: center;
   }
 
   .contact-us-section {
