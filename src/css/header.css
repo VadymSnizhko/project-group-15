@@ -253,7 +253,6 @@
   visibility: hidden;
   pointer-events: none;
 
-  background: url(/images/header/mob-menu-back.jpg);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -405,7 +404,6 @@
 @media only screen and (min-width: 768px) {
   .modal-menu {
     min-width: 330px;
-    background: url(/images/header/tab-menu-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -439,6 +437,7 @@
     position: fixed;
     top: 26px;
     right: 32px;
+      background-image: url(/images/header/tab-menu-back.jpg);
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -463,6 +462,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
+    background-image: linear-gradient(), url(/images/header/mob-menu-back.jpg);
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
