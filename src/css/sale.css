@@ -31,6 +31,7 @@
 
 .sale-watch{
     display: block;
+    margin-bottom: 20px;
   }
 
 
@@ -75,6 +76,7 @@
   
   .sale-watch{
     display: flex;
+    margin-bottom: 0px;
   }
     
     .sale-img-items{
